@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Log In Page</h1>
-    <form id="Log-in Form" action="https://www.facebook.com/" id="Log-in" method="get">
+    <form id="Log-in Form" action="https://www.facebook.com/" method="get">
 		<label for="username">Username </label><br>
 		<input type="text" name="username" id="username" value="Enter name here" placeholder="Required" required><br></br>
 		<label for="email"> Email </label><br>
@@ -29,7 +29,19 @@
 		<label for="DOB"> Date of Birth </label>
 		<input id="DOB" type="date" name="date of birth" value="DOB" placeholder="Required" required>
 	    <br></br>
-	    <input type="submit" name="submit" value="click me">	
-    </form>    
+	    <div id="upload">
+	    	<form id="image-form" enctype = "multipart/form-data" action = "save_image_file.py" method = "post">
+	    	   <p>Upload image: <input type = "file" name = "imagetoupload" /></p>
+	    	   <input type = "submit" value = "Upload" form="image-form" required>
+	    	</form>
+	    	<form id="document-upload" enctype = "multipart/form-data" action = "save_document_file.py" method = "post">
+	    	   <p>Upload Document: <input type = "file" name = "documenttoupload" /></p>
+	    	   <input type = "submit" value = "Upload" form="document-upload" required>
+	    	</form>
+	    </div>
+	    <br>
+	    <input type="submit" name="submit" form="Log-in Form" value="Submit">
+	    <input type="reset" name="reset" form="Log-in Form">	
+    </form>    	
 </body>
 </html>
