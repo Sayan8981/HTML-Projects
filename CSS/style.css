@@ -7,10 +7,19 @@ h2{
 	color: rgb(19, 69, 6);
 }
 
-a span{
+.search-link{
+	border:1px dotted red;
+}
+
+a span {
 	color: rgb(46, 4, 51);
 }
 
 p span{
 	color: rgb(36, 209, 157);
+}
+
+li a[href="https://www.geeksforgeeks.org/python-programming-language/"],
+     a[href="https://www.guru99.com/python-tutorial-pdf.html"]{
+	color:green;
 }
