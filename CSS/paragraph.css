@@ -1,0 +1,15 @@
+h1{
+	font-family: "Times";
+	font-size: 2.0;
+	font-style: italic;
+	text-align: center;
+}
+
+#paragraph {
+	font-size: 1.5em;
+	text-align: justify-all;
+}
+
+p{
+	font-style: italic;
+}
