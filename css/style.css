@@ -3,3 +3,52 @@
     padding: 0;
 }
 
+.logo{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 5rem;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    justify-content: left;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    background-color: rgb(207, 63, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-list li a:hover{
+    color: greenyellow;    
+}
+
+.right-nav{
+    width: 50%;
+    background-color: blueviolet;
+    text-align: right;
+}
