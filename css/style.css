@@ -22,9 +22,18 @@
 }
 
 .logo img:hover{
-    transition: transform .5s ease-in-out;
+    transition: transform .7s ease-in-out;
     transform: scale(1.4);
     transform-origin: 0 0;
+    transform: scale(1.25) translateX(-40%);
+    -webkit-transform: scale(1.25) translateX(-40%);
+    -moz-transform: scale(1.25) translateX(-40%);
+    -ms-transform: scale(1.25) translateX(-40%);
+    -o-transform: scale(1.25) translateX(-40%);
+    -webkit-transition: transform .7s ease-in-out;
+    -moz-transition: transform .7s ease-in-out;
+    -ms-transition: transform .7s ease-in-out;
+    -o-transition: transform .7s ease-in-out;
 }
 
 .navbar{
